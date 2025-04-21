@@ -1,0 +1,26 @@
+{
+    "pipeline": [
+        "token_preprocess",
+        "meta_parse",
+        "dispatch"
+    ],
+    "settings": {
+        "semantic_mode": "adaptive",
+        "fallback_layer": "v2-legacy",
+        "thread_count": 4,
+        "safety_limits": {
+            "max_depth": 16,
+            "max_tokens": 512
+        },
+        "logging": {
+            "enabled": true,
+            "log_level": "debug",
+            "output_file": "logs/inference_engine_v3.log"
+        }
+    },
+    "debug_flags": {
+        "simulate_latency": true,
+        "random_seed": 42,
+        "trace_path": "/tmp/pipeline_trace/"
+    }
+}
