@@ -1,0 +1,7 @@
+[INFO] [inference_core] Initialized pipeline with 3 stages
+[DEBUG] [semantic_observer] Drift score calculated: 4.556 (normalized)
+[TRACE] [dispatcher] Dispatch loop entered @ 1689ms
+[WARN] [token_preprocess] Unrecognized token pattern detected: "::undefined"
+[INFO] [bridge_adapter] External signal translated successfully
+[ERROR] [runner] Legacy fallback mode entered due to handshake timeout
+[INFO] [inference_core] Execution complete. TraceID: f91c3d4e12ffae77

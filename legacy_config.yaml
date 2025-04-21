@@ -1,0 +1,6 @@
+# legacy_config.yaml
+version: 0.9.3-legacy
+mode: simulation
+token_limit: 2048
+enable_observer: false
+fallback_protocol: override-v1
